@@ -4117,13 +4117,22 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand {
-  display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 15px;
+}
+
+.navbar-brand .title {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.navbar-brand .title h1 {
+  margin-bottom: 5px;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
