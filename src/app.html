@@ -70,7 +70,7 @@
                         <a href="#savoir-faire" class="nav-item nav-link">Nos savoir-faire</a>
                         <a href="#rdv" class="nav-item nav-link">Contact</a>
                     </div>
-                    <a href="mailto:contact@causse-avocat.fr" class="btn btn-primary mr-3 d-none d-lg-block">Je prends un RDV</a>
+                    <a href="#rdv" class="btn btn-primary mr-3 d-none d-lg-block">Je prends un RDV</a>
                     <a href="mailto:contact@causse-avocat.fr" class="btn btn-primary mr-3 d-none d-lg-block">Je demande un devis</a>
                 </div>
             </nav>
@@ -79,131 +79,23 @@
 
     <div style="display: contents">%sveltekit.body%</div>
 
-    <!-- Services Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <h1 id="savoir-faire" class="mb-4">Nos savoir-faire</h1>
-            <div class="row">
-                <div class="col-12">
-                    <div class="bg-primary rounded" style="height: 200px;"></div>
-                    <div class="owl-carousel service-carousel position-relative" style="margin-top: -100px; padding: 0 30px;">
-                        <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
-                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
-                                <i class="fa fa-2x fa-building"></i>
-                            </div>
-                            <h5 class="mb-4 px-4">Contentieux de l'immeuble, copropriété, construction, enchères</h5>
-                        </div>
-                        <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
-                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
-                                <i class="fa fa-2x fa-users"></i>
-                            </div>
-                            <h5 class="mb-4 px-4">Bail commercial et d’habitation</h5>
-                        </div>
-                        <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
-                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
-                                <i class="fa fa-2x fa-briefcase"></i>
-                            </div>
-                            <h5 class="mb-4 px-4">Divorce, liquidation, succession</h5>
-                        </div>
-                        <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
-                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
-                                <i class="fa fa-2x fa-gavel"></i>
-                            </div>
-                            <h5 class="mb-4 px-4">Droit du travail</h5>
-                        </div>
-                        <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
-                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
-                                <i class="fa fa-2x fa-industry"></i>
-                            </div>
-                            <h5 class="mb-4 px-4">Sociétés et entreprises en difficultés</h5>
-                        </div>
-                        <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
-                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
-                                <i class="fa fa-2x fa-briefcase-medical"></i>
-                            </div>
-                            <h5 class="mb-4 px-4">Marchés publics et privés</h5>
-                        </div>
-                        <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
-                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
-                                <i class="fa fa-2x fa-briefcase-medical"></i>
-                            </div>
-                            <h5 class="mb-4 px-4">Assurances</h5>
-                        </div>
-                        <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
-                            <div class="icon-box bg-secondary text-primary mt-2 mb-4">
-                                <i class="fa fa-2x fa-ambulance"></i>
-                            </div>
-                            <h5 class="mb-4 px-4">Réparation du préjudice corporel</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Services End -->
-
-
-    <!-- Appointment Start -->
-    <div class="container-fluid py-5" id="rdv">
-        <div class="container py-5">
-            <div class="bg-appointment rounded">
-                <div class="row h-100 align-items-center justify-content-center">
-                    <div class="col-lg-6 py-5">
-                        <div class="rounded p-5 my-5" style="background: rgba(55, 55, 63, .7);">
-                            <h1 class="text-center text-white mb-4">Je prends un rendez-vous</h1>
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control border-0 p-4" placeholder="Nom" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control border-0 p-4" placeholder="E-mail" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <textarea placeholder="Message" required="true" class="form-control border-0 p-4" rows="3"></textarea>
-                                </div>
-                                <div>
-                                    <button class="btn btn-primary btn-block border-0 py-3" type="submit">Envoyer</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Appointment End -->
-
-
-    <!-- Action Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="bg-action rounded" style="height: 500px;">
-                <div class="row h-100 align-items-center justify-content-center">
-                    <div class="col-lg-7 text-center">
-                        <h1 class="text-white mb-4">Let's get started. Call us now for a Free Consultation</h1>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="mailto:contact@causse-avocat.fr">Nous contacter</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Action End -->
-
     <!-- Footer Start -->
     <div class="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5" style="margin-top: 90px;">
         <div class="row mt-5">
-            <div class="col-lg-6">
-                <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
-                    <i class="fa fa-2x fa-map-marker-alt text-primary"></i>
-                    <div class="ml-3">
-                        <h5 class="text-white">Nos bureaux</h5><br/>
-                        <p class="m-0">18 Cours Pierre-Puget, 13006 Marseille</p><br/>
-                        <p class="m-0">8 route de la Sablière - Immeuble le Rond-point, 13011 Marseille</p><br/>
-                        <p class="m-0">1 rue Saint-Antoine, 75004 Paris</p>
+            <div class="col-lg-8">
+                <div>
+                    <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
+                        <i class="fa fa-2x fa-map-marker-alt text-primary"></i>
+                        <div class="ml-3">
+                            <h5 class="text-white">Nos bureaux</h5><br/>
+                            <p class="m-0">18 Cours Pierre-Puget, 13006 Marseille</p><br/>
+                            <p class="m-0">8 route de la Sablière - Immeuble le Rond-point, 13011 Marseille</p><br/>
+                            <p class="m-0">1 rue Saint-Antoine, 75004 Paris</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
                     <i class="fa fa-2x fa-envelope-open text-primary"></i>
                     <div class="ml-3">
@@ -215,8 +107,9 @@
                 </div>
             </div>
         </div>
+        
         <div class="row pt-5">
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-4 col-md-6 mb-5">
                 <a href="/" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
                     <img src="img/logo.png" height="64" alt=""/>
                     <div class="title">
@@ -224,38 +117,16 @@
                         <span>Avocats au barreau</span>
                     </div>
                 </a>
-                <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5">
+            <div class="col-lg-4 col-md-6 mb-5">
+                <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5">
                 <h4 class="font-weight-semi-bold text-primary mb-4">Plan du site</h4>
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Accueil</a>
                     <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Nos savoir-faire</a>
                     <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Contact</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-semi-bold text-primary mb-4">Quick Links</h4>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>FAQs</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Help</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Terms</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Privacy</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Site Map</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-semi-bold text-primary mb-4">Newsletter</h4>
-                <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor. Accu kasd sed ea duo ipsum.</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-0" style="padding: 25px;" placeholder="Your Email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Sign Up</button>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -273,7 +144,6 @@
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary px-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

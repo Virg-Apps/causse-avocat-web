@@ -1,25 +1,18 @@
-<div class="container-fluid py-5">
-    <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-5">
-                <img class="img-fluid rounded" src="img/caroline-causse.jpg" alt="">
-            </div>
-            <div class="col-lg-7 mt-4 mt-lg-0">
-                <h2 class="position-relative text-center bg-white text-primary rounded p-3 mt-4 mb-4 d-none d-lg-block" style="width: 350px; margin-left: -205px;">30 ans d'experience</h2>
-                <h1 class="mb-4">CABINET CAROLINE CAUSSÉ</h1>
-                <h6 class="text-uppercase">Avocats</h6>
-                <p>Diplômée de l’Institut du Droit des Affaires, et du Magistère de Fiscalité des Entreprises, Me. Caroline Caussé, a créé un cabinet qui conseille et accompagne ses clients, entreprises et particuliers,  depuis plus de 30 ans. Le cabinet intervient, sur les problématiques civiles et commerciales, dans les domaines de la famille, de l’immobilier, du droit des affaires et de la réparation du préjudice corporel. Elle exerce avec rigueur, efficacité et discrétion tant dans le domaine du conseil  que du contentieux, tout en proposant conciliation et médiation, aux fins de prévenir les litiges et permettre la résolution de conflits.</p>
-            </div>
-        </div>
-    </div>
-</div>
+<script lang="ts">
+
+	import { enhance } from "$app/forms";
+	import Presentation from "$lib/components/Presentation.svelte";
+	import SavoirFaire from "$lib/components/SavoirFaire.svelte";
+</script>
+
+<Presentation/>
 
 <div class="container-fluid py-5">
     <div class="container py-5">
         <div class="row">
             <div class="col-lg-6" style="min-height: 500px;">
                 <div class="position-relative h-100 rounded overflow-hidden">
-                    <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
                 </div>
             </div>
             <div class="col-lg-6 pt-5 pb-lg-5">
@@ -54,6 +47,54 @@
                             <h5>Discrétion</h5>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<SavoirFaire/>
+
+<div class="container-fluid py-5" id="rdv">
+    <div class="container py-5">
+        <div class="bg-appointment rounded">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-lg-6 py-5">
+                    <div class="rounded p-5 my-5" style="background: rgba(55, 55, 63, .7);">
+                        <h1 class="text-center text-white mb-4">Je prends un rendez-vous</h1>
+                        <form method="POST" action="?/demanderRDV" use:enhance={({ formElement, formData, action, cancel, submitter }) => {            
+                            return async ({ result, update }) => {
+                                // `result` is an `ActionResult` object
+                                // `update` is a function which triggers the default logic that would be triggered if this callback wasn't set
+                            };
+                        }}>
+                            <div class="form-group">
+                                <input type="text" class="form-control border-0 p-4" placeholder="Nom" name="nom" required={true} />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control border-0 p-4" placeholder="E-mail" name="email" required={true} />
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Message" required={true} class="form-control border-0 p-4" name="message" rows="3"></textarea>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary btn-block border-0 py-3" type="submit">Envoyer</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="bg-action rounded" style="height: 500px;">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-lg-7 text-center">
+                    <h1 class="text-white mb-4">Restons en contact</h1>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="mailto:contact@causse-avocat.fr">Nous contacter</a>
                 </div>
             </div>
         </div>
