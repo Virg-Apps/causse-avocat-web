@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { enhance } from "$app/forms";
+	import toast from "svelte-french-toast";
 </script>
 
 <div class="container-fluid py-5" id="rdv">
@@ -11,8 +12,11 @@
                         <h1 class="text-center text-white mb-4">Je prends un rendez-vous</h1>
                         <form method="POST" action="?/demanderRDV" use:enhance={({ formElement, formData, action, cancel, submitter }) => {            
                             return async ({ result, update }) => {
-                                // `result` is an `ActionResult` object
-                                // `update` is a function which triggers the default logic that would be triggered if this callback wasn't set
+                                formElement.reset();
+                                toast.success(`Votre demande à été prise en compte`, {
+                                    position: "bottom-center",
+                                    duration: 5000
+                                });
                             };
                         }}>
                             <div class="form-group">

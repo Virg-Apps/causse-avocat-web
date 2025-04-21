@@ -1,6 +1,7 @@
 import type { Actions } from "@sveltejs/kit";
 import Mailjet from "node-mailjet";
 import { MJ_API_KEY, MJ_API_TOKEN } from "$env/static/private";
+import { PUBLIC_CONTACT } from "$env/static/public";
 
 const mailjet = new Mailjet({
     apiKey: MJ_API_KEY,
@@ -14,7 +15,7 @@ export const actions = {
             Messages: [
                 {
                     From: { Email: "noreply@causse-avocat.fr", Name: "Caussé Avocat" },
-                    To: [{ Email: 'contact@causse-avocat.fr' }],
+                    To: [{ Email: PUBLIC_CONTACT }],
                     Subject: "Demande de RDV",
                     TextPart: `Nom: ${data.get('nom')}\nE-mail: ${data.get('email')}\nMessage: ${data.get("message")}`
                 }
@@ -27,7 +28,7 @@ export const actions = {
             Messages: [
                 {
                     From: { Email: "noreply@causse-avocat.fr", Name: "Caussé Avocat" },
-                    To: [{ Email: 'contact@causse-avocat.fr' }],
+                    To: [{ Email: PUBLIC_CONTACT }],
                     Subject: "Demande de devis",
                     TextPart: `Nom: ${data.get('nom')}\nE-mail: ${data.get('email')}\nMessage: ${data.get("message")}`
                 }

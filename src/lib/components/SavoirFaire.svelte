@@ -7,6 +7,12 @@
                 <div class="owl-carousel service-carousel position-relative" style="margin-top: -50px; padding: 0 30px;">
                     <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
                         <h5 class="mb-4 px-4">Contentieux de l'immeuble, copropriété, construction, enchères</h5>
+                        <p>Expertises immobilieres en cas de non-finitions, non conformités, impropriété et tous autres désordres</p>
+                        <p>Demande d’indemnisation amiables ou contentieuses</p>
+                        <p>Contentieux du recouvrement des charges de copropriété et mesures d’exécution</p>
+                        <p>Execution forcée et vente aux enchères</p>
+                        <p>Achat à la barre du Tribunal</p>
+                        <p>Activité de mandataire immobilier</p>
                     </div>
                     <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
                         <h5 class="mb-4 px-4">Bail commercial et d’habitation</h5>
@@ -25,6 +31,8 @@
                     </div>
                     <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
                         <h5 class="mb-4 px-4">Assurances</h5>
+                        <p>Gestion de la relation assuré assureur</p>
+                        <p>Courtage</p>
                     </div>
                     <div class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
                         <h5 class="mb-4 px-4">Réparation du préjudice corporel</h5>

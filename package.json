@@ -41,6 +41,7 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",
-		"node-mailjet": "^6.0.8"
+		"node-mailjet": "^6.0.8",
+		"svelte-french-toast": "^2.0.0-alpha.0"
 	}
 }
