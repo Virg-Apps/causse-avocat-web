@@ -3,7 +3,8 @@
 	import { page } from '$app/state';
 
 	let { children } = $props();
-	const pageActive: string = page.data.pageActive;
+	let pathName: string = page.url.pathname;
+	console.log(pathName);
 </script>
 
 <header>
@@ -40,9 +41,9 @@
 			</button>
 			<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
 				<div class="navbar-nav mr-auto py-0">
-					<a href="/" class="nav-item nav-link" class:active={pageActive == 'accueil'}>Accueil</a>
+					<a href="/" class="nav-item nav-link" class:active={pathName == '/'}>Accueil</a>
 					<a href="/#savoir-faire" class="nav-item nav-link">Nos savoir-faire</a>
-					<a href="/politique-de-confidentialite" class="nav-item nav-link" class:active={pageActive == 'politique-de-confidentialite'}>Politique de confidentilité</a>
+					<a href="/politique-de-confidentialite" class="nav-item nav-link" class:active={pathName == '/politique-de-confidentialite'}>Politique de confidentilité</a>
 				</div>
 				<a href="#rdv" class="btn btn-primary mr-3 d-none d-lg-block">Je prends un RDV</a>
 				<a href="#devis" class="btn btn-primary mr-3 d-none d-lg-block">Je demande un devis</a>
