@@ -7,76 +7,17 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
-
-    <!-- Favicon -->
     <link href="/img/logo.png" rel="icon" type="image/png">
-
-    <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@300;500;700&display=swap" rel="stylesheet"> 
-
-    <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
     <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
-
-    <!-- Customized Bootstrap Stylesheet -->
     <link href="/css/style.css" rel="stylesheet">
 	%sveltekit.head%
 </head>
 
 <body data-sveltekit-preload-data="hover">
-    <header>
-        <a href="/" id="logo">
-            <img src="img/logo.png" height="64" alt=""/>
-            <div class="title">
-                <h1>Cabinet Caussé</h1>
-                <span>Avocats au barreau</span>
-            </div>
-        </a>
-        <section class="menu">
-            <div class="row bg-white border-bottom d-none d-lg-flex">
-                <div class="col-lg-7 text-left">
-                    <div class="h-100 d-inline-flex align-items-center py-2 px-3">
-                        <i class="fa fa-envelope text-primary mr-2"></i>
-                        <small><a href="mailto:contact@causse-avocat.fr">contact@causse-avocat.fr</a></small>
-                    </div>
-                    <div class="h-100 d-inline-flex align-items-center py-2 px-2">
-                        <i class="fa fa-phone text-primary mr-2"></i>
-                        <small><a href="tel:0491523214">04 91 52 32 14</a></small>
-                    </div>
-                    <div class="h-100 d-inline-flex align-items-center py-2 px-2">
-                        <i class="fa fa-mobile text-primary mr-2"></i>
-                        <small><a href="tel:0663210561">06 63 21 05 61</a></small>
-                    </div>
-                </div>
-                <div class="col-lg-5 text-right">
-                    <div class="d-inline-flex align-items-center p-2">
-                        <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
-                <button id="menu-trigger" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav mr-auto py-0">
-                        <a href="/" class="nav-item nav-link active">Accueil</a>
-                        <a href="#savoir-faire" class="nav-item nav-link">Nos savoir-faire</a>
-                        <a href="#rdv" class="nav-item nav-link">Contact</a>
-                    </div>
-                    <a href="#rdv" class="btn btn-primary mr-3 d-none d-lg-block">Je prends un RDV</a>
-                    <a href="#devis" class="btn btn-primary mr-3 d-none d-lg-block">Je demande un devis</a>
-                </div>
-            </nav>
-        </section>
-    </header>
-
     <div style="display: contents">%sveltekit.body%</div>
 
     <!-- Footer Start -->
@@ -126,8 +67,9 @@
                 <div class="d-flex flex-column justify-content-start">
                     <a class="text-white mb-2" href="/"><i class="fa fa-angle-right mr-2"></i>Accueil</a>
                     <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Nos savoir-faire</a>
-                    <a class="text-white mb-2" href="#rdv"><i class="fa fa-angle-right mr-2"></i>Je demande un rendez-vous</a>
-                    <a class="text-white mb-2" href="#devis"><i class="fa fa-angle-right mr-2"></i>Je demande un devis</a>
+                    <a class="text-white mb-2" href="/#rdv"><i class="fa fa-angle-right mr-2"></i>Je demande un rendez-vous</a>
+                    <a class="text-white mb-2" href="/#devis"><i class="fa fa-angle-right mr-2"></i>Je demande un devis</a>
+                    <a class="text-white mb-2" href="/politique-de-confidentialite"><i class="fa fa-angle-right mr-2"></i>Politique de confidentilité</a>
                 </div>
             </div>
         </div>
@@ -140,13 +82,9 @@
             </div>
         </div>
     </div>
-    <!-- Footer End -->
 
-
-    <!-- Back to Top -->
     <a href="#" class="btn btn-primary px-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-    <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
@@ -155,12 +93,6 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-
-    <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
 

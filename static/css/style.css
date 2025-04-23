@@ -64,7 +64,7 @@ body {
   background-color: #fff;
 }
 
-body > header {
+body > div > header {
   width: 100%;
   gap: 1rem;
   display: flex;
