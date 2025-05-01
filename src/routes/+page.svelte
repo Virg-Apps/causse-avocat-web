@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-lg-6" style="min-height: 500px;">
                 <div class="position-relative h-100 rounded overflow-hidden">
-                    <img class="position-absolute w-100 h-100" src="img/feature.jpg" style="object-fit: cover;" alt="">
+                    <img class="position-absolute w-100 h-100" src="/img/feature.jpg" style="object-fit: cover;" alt="">
                 </div>
             </div>
             <div class="col-lg-6 pt-5 pb-lg-5">
