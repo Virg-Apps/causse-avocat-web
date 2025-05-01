@@ -18,7 +18,7 @@
                     </details>
                     <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded">
                         <summary>
-                            <h5 class="mb-4 px-4">Bail commercial et d’habitation</h5>
+                            <h5 class="mb-4 px-4">Bail commercial et professionnel</h5>
                         </summary>
                         <p>Bail commercial et professionnel</p>
                         <p>Redaction de contrat, cession de contrat de bail</p> 
