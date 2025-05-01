@@ -5,7 +5,7 @@
             <div class="col-12">
                 <div class="bg-primary rounded" style="height: 150px;"></div>
                 <div class="owl-carousel service-carousel position-relative" style="margin-top: -50px; padding: 0 30px;">
-                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded">
                         <summary>
                             <h5 class="mb-4 px-4">Contentieux de l'immeuble, copropriété, construction, enchères</h5>
                         </summary>
@@ -16,7 +16,7 @@
                         <p>Achat à la barre du Tribunal</p>
                         <p>Activité de mandataire immobilier</p>
                     </details>
-                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded">
                         <summary>
                             <h5 class="mb-4 px-4">Bail commercial et d’habitation</h5>
                         </summary>
@@ -25,7 +25,7 @@
                         <p>Renouvellement</p>
                         <p>Contentieux de la résiliation</p>
                     </details>
-                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded">
                         <summary>
                             <h5 class="mb-4 px-4">Bail d'habitation</h5>
                         </summary>
@@ -34,7 +34,7 @@
                         <p>Suivi des procédures d’expulsion et d’exécution des jugements</p>
                         <p>Actions en responsabilité contre l’Etat</p>
                     </details>
-                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded">
                         <summary>
                             <h5 class="mb-4 px-4">Divorce, liquidation, succession</h5>
                         </summary>
@@ -45,7 +45,7 @@
                         <p>Gestion de l’ndivision</p>
                         <p>Licitations judiciaires et ventes forcées</p>
                     </details>
-                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded">
                         <summary>
                             <h5 class="mb-4 px-4">Litiges en droit du travail</h5>
                         </summary>
@@ -53,7 +53,7 @@
                         <p>Contentieux de la rupture</p>
                         <p>Transaction et négociation</p>
                     </details>
-                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded">
                         <summary>
                             <h5 class="mb-4 px-4">Sociétés et entreprises en difficultés</h5>
                         </summary>
@@ -61,7 +61,7 @@
                         <p>Assistance aux créanciers</p>
                         <p>Procédures de sanctions</p>
                     </details>
-                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded">
                         <summary>
                             <h5 class="mb-4 px-4">Marchés publics et privés</h5>
                         </summary>
@@ -70,21 +70,21 @@
                         <p>Contentieux de la responsabilité</p>
                         <p>Contentieux du paiement, DGD et retenues de garantie</p>
                     </details>
-                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded">
                         <summary>
                             <h5 class="mb-4 px-4">Assurances</h5>
                         </summary>
                         <p>Gestion de la relation assuré assureur</p>
                         <p>Courtage</p>
                     </details>
-                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded">
                         <summary>
                             <h5 class="mb-4 px-4">Réparation du préjudice corporel</h5>
                         </summary>
                         <p>Expertises medicales</p>
                         <p>Demandes d’indemnisation amiables ou contentieuses</p>
                     </details>
-                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded pt-4">
+                    <details class="item-savoirfaire d-flex flex-column align-items-center text-center bg-white rounded">
                         <summary>
                             <h5 class="mb-4 px-4">Contentieux civil et commercial</h5>
                         </summary>
@@ -107,7 +107,19 @@
 </div>
 
 <style>
-    .item-savoirfaire summary:hover {
-        background-color: #e1e1e1;
+    summary {
+        padding-bottom: 0.3rem;
+        border-radius: 5px;
+    }
+    details:hover {
+        background: #B49C73;
+    }
+    summary:hover {
+        background-color: #ffe3b2;
+    }
+
+    summary::marker, summary::-webkit-details-marker {
+        display: none;
+        color: transparent;
     }
 </style>
