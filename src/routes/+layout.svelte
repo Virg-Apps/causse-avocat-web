@@ -91,7 +91,7 @@
 					<p class="m-0">04 91 52 32 14</p><br/>
 				</div>
 				<hr/>
-				<a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+				<a aria-label="LinkedIn" class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.linkedin.com/in/caroline-causse-b38008363" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 		</div>
 	</div>
