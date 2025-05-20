@@ -28,13 +28,13 @@
 					<small><a href="tel:0491523214">04 91 52 32 14</a></small>
 				</div>
 			</div>
-			<div class="col-lg-5 text-right">
+			<!--<div class="col-lg-5 text-right">
 				<div class="d-inline-flex align-items-center p-2">
 					<a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="" aria-label="LinkedIn">
 						<i class="fab fa-linkedin-in"></i>
 					</a>
 				</div>
-			</div>
+			</div>-->
 		</div>
 		<nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
 			<button id="menu-trigger" type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-label="Menu">
@@ -91,7 +91,7 @@
 					<p class="m-0">04 91 52 32 14</p><br/>
 				</div>
 				<hr/>
-				<a aria-label="LinkedIn" class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.linkedin.com/in/caroline-causse-b38008363" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+				<!--<a aria-label="LinkedIn" class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.linkedin.com/in/caroline-causse-b38008363" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>-->
 			</div>
 		</div>
 	</div>
